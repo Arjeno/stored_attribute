@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Arjen Oosterkamp"]
   s.email       = ["mail@arjen.me"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Type casting stored attributes for ActiveRecord}
+  s.description = %q{Type casting stored attributes for ActiveRecord}
 
   s.rubyforge_project = "stored_attribute"
 
@@ -18,7 +18,10 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_development_dependency "bundler", ">= 1.0.0"
+  s.add_development_dependency "rspec", "~> 2.3"
+
+  s.add_development_dependency "sqlite3"
+
+  s.add_dependency "activerecord", "~> 3.0"
 end
