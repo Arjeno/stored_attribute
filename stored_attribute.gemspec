@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = StoredAttribute::VERSION
   s.authors     = ["Arjen Oosterkamp"]
   s.email       = ["mail@arjen.me"]
-  s.homepage    = ""
-  s.summary     = %q{Type casting stored attributes for ActiveRecord}
-  s.description = %q{Type casting stored attributes for ActiveRecord}
+  s.homepage    = "https://github.com/Arjeno/stored_attribute"
+  s.summary     = %q{ActiveRecord extension for type casting serialized attributes}
+  s.description = %q{ActiveRecord extension for type casting serialized attributes}
 
   s.rubyforge_project = "stored_attribute"
 
