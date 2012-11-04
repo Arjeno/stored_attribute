@@ -1,6 +1,6 @@
 # stored_attribute [![Build Status](https://secure.travis-ci.org/Arjeno/stored_attribute.png?branch=master)](http://travis-ci.org/Arjeno/stored_attribute)
 
-A simple extension to ActiveRecord for type casting serialized stored attributes using the `store` method.
+A simple extension to ActiveRecord for type casting serialized stored attributes using the `store` (introduced in Rails 3.2.0) method.
 
 ## Usage
 
