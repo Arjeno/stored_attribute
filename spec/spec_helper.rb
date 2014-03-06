@@ -1,3 +1,8 @@
+## Test coverage
+
+require 'coveralls'
+Coveralls.wear!
+
 require 'stored_attribute'
 
 ActiveRecord::Base.establish_connection(:adapter => "sqlite3",
