@@ -25,8 +25,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency "sqlite3"
 
   if RUBY_VERSION < '1.9.3'
-    gem.add_dependency 'activerecord', '>= 3.2.0', '< 4.0.0'
+    s.add_dependency 'activerecord', '>= 3.2.0', '< 4.0.0'
   else
-    gem.add_dependency 'activerecord', '>= 3.2.0'
+    s.add_dependency 'activerecord', '>= 3.2.0'
   end
 end
