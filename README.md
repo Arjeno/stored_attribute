@@ -29,3 +29,28 @@ post.show_date # => false
 post.update_attributes({ :show_date => true })
 post.show_date # => true
 ```
+
+Supported Ruby Versions
+------------
+
+This library is tested against Travis and aims to support the following Ruby
+implementations:
+
+* Ruby 1.9.2
+* Ruby 1.9.3
+* Ruby 2.0.0
+* Ruby 2.1.1
+
+Contributing
+------------
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+Copyright
+------------
+
+Copyright (c) 2012-2014 Arjen Oosterkamp. See LICENSE for details.
